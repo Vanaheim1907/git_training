@@ -16,3 +16,6 @@ Training how to use git
 - git log : permet de voir l’historique
 
 - git checkout « CommitSHA » permet de revenir à une version plus ancienne lorsqu’un bug/problème surviens
+
+- git pull <origin> <master> : récupère les derniers fichiers modifier sur origin et branche master
+
