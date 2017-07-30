@@ -19,3 +19,4 @@ Training how to use git
 
 - git pull <origin> <master> : récupère les derniers fichiers modifier sur origin et branche master
 
+Penser à toujours faire des git pull et git push le plus souvent possible afin d'être toujours à jour !
