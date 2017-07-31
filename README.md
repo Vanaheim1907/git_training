@@ -25,4 +25,11 @@ Penser à toujours faire des git pull et git push le plus souvent possible afin 
 - git branch: Pour connaître sur quelle branche on se trouve et les branches disponible sur le répertoire
 
 - git checkout <branchName>: switch sur la branche qu'on passe en paramètre
+
+- git branch <NewBranch> : Créer une nouvelle branche
+
+Petite astuce pour manipuler vos branches : vous pouvez utiliser la commande 'git checkout -b' pour créer une branche et vous y positionner. Ainsi, au lieu de taper la commande suivante pour créer votre branche 
+
+- git checkout -b <BranchName>
+
  
