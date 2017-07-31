@@ -25,4 +25,6 @@ Penser à toujours faire des git pull et git push le plus souvent possible afin 
 - git branch: Pour connaître sur quelle branche on se trouve et les branches disponible sur le répertoire
 
 - git checkout <branchName>: switch sur la branche qu'on passe en paramètre
- 
+
+
+Et si j'étais un poisson dans l'eau à la place d'être un être humain, quel serait mon expérience de vie? 
