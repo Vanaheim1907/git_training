@@ -31,5 +31,12 @@ Penser à toujours faire des git pull et git push le plus souvent possible afin 
 
 Petite astuce pour manipuler vos branches : vous pouvez utiliser la commande 'git checkout -b' pour créer une branche et vous y positionner. Ainsi, au lieu de taper la commande suivante pour créer votre branche 
  
+-git blame <fileName> : Permet de voir qui a modifier le fichier exactement
 
+-git show <keySHA> : Permet de voir qui a modifier le fichier mais permet de savoir extactement où les modifications ont été apportées;
 
+Pour retrouver qui a modifié une ligne précise de code dans un projet, faire une recherche avec git log peut s'avérer compliqué, surtout si le projet contient beaucoup de commits. Il existe un autre moyen plus direct de retrouver qui a fait une modification particulière dans un fichier : la commande git blame.
+
+git blame <nomdufichier.extension>
+
+Créez le fichier .gitignore pour y lister les fichiers que vous ne voulez pas versionner dans Git (les fichiers comprenant les variables de configuration, les clés d'APIs et autres clés secrètes, les mots de passe, etc.). Listez ces fichiers ligne par ligne dans .gitignore en indiquant leurs chemins complets
