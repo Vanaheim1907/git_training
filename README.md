@@ -15,8 +15,14 @@ Training how to use git
 
 - git log : permet de voir l’historique
 
-- git checkout « CommitSHA » permet de revenir à une version plus ancienne lorsqu’un bug/problème surviens
+- git checkout <CommitSHA> permet de revenir à une version plus ancienne lorsqu’un bug/problème surviens
 
 - git pull <origin> <master> : récupère les derniers fichiers modifier sur origin et branche master
 
 Penser à toujours faire des git pull et git push le plus souvent possible afin d'être toujours à jour !
+
+
+- git branch: Pour connaître sur quelle branche on se trouve et les branches disponible sur le répertoire
+
+- git checkout <branchName>: switch sur la branche qu'on passe en paramètre
+ 
