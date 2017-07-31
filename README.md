@@ -40,3 +40,9 @@ Pour retrouver qui a modifié une ligne précise de code dans un projet, faire u
 git blame <nomdufichier.extension>
 
 Créez le fichier .gitignore pour y lister les fichiers que vous ne voulez pas versionner dans Git (les fichiers comprenant les variables de configuration, les clés d'APIs et autres clés secrètes, les mots de passe, etc.). Listez ces fichiers ligne par ligne dans .gitignore en indiquant leurs chemins complets
+
+- git stash : Permet de mettre de coté les modifications en cours
+	git stash pop : récupère les modifications mise de coté
+Attention, pop vide votre stash des modifications que vous aviez rangées dedans. Donc une fois que vous avez récupéré ces modifications dans votre branche, il vous faut finir votre tâche et les committer ! (ou bien les remettre de côté en exécutant à nouveau la commande git stash).
+
+Si vous voulez garder les modifications dans votre stash, vous pouvez utiliser apply à la place de pop: 
